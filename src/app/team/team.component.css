@@ -1,0 +1,27 @@
+.card-teams {
+  border: 1px solid rgba(128, 128, 128, 0.21);
+  width: 100%;
+  padding: 1rem;
+}
+
+.card-teams h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.41);
+}
+
+.card-teams p {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.teams-list ul {
+  padding-left: 2rem;
+}
+
+.teams-list .team-list-item {
+  margin-bottom: 1rem;
+  list-style: square;
+}

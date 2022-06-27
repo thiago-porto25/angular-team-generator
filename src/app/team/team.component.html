@@ -1,0 +1,13 @@
+<div class="card-teams" *ngIf="teams.length">
+  <h2>Teams</h2>
+  <ul class="teams-list">
+    <li *ngFor="let team of teams; index as i">
+      <p>Team {{ i + 1 }}</p>
+      <ul>
+        <li class="team-list-item" *ngFor="let person of team">
+          {{ person | titlecase }}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
